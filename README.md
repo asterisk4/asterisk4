@@ -15,3 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 Sloppy disk
+![GitHub Snake](dist/github-snake.svg)
