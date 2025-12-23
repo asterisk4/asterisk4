@@ -1,0 +1,19 @@
+# .github/workflows/snake.yml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ asterisk4}}
+          outputs: dist/github-snake.svg dist/github-snake-dark.svg?palette=github-dark dist/ocean.gif
+          color_snake: '#ff0000' # Example: Red snake
+          color_dots: '#00ff00,#00ee00,#00dd00,#00cc00,#00bb00' # Green shades for contributions
+          color_background: '#ffffff' # White background for GIF
