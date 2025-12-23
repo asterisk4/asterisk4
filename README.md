@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 Sloppy disk
 
-!https://github.com/asterisk4/asterisk4/blob/output/github-contribution-grid-snake.gif
+![snake gif]https://github.com/asterisk4/asterisk4/blob/output/github-contribution-grid-snake.gif
